@@ -60,7 +60,7 @@ Para instalar as dependências, execute o seguinte comando:
 pip install -r requirements.txt
 ´´´
 
-### **Como Executar**
+### **Como executar**
 
 Certifique-se de que o arquivo brca_mirnaseq.csv está na mesma pasta do script ou notebook.
 Execute o predicao_cancer.py em um ambiente python.
