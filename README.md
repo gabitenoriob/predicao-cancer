@@ -58,7 +58,7 @@ Para instalar as dependências, execute o seguinte comando:
 
 ```bash
 pip install -r requirements.txt
-´´´
+```
 
 ### **Como executar**
 
