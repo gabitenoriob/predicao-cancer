@@ -42,7 +42,6 @@ ax = sns.countplot(x = 'class', data = df) #Criando gráfico de barras para ver 
 
 df['class'].value_counts() #Verificando a quantidade de TP e NT
 
-"""Está desbalanceado"""
 
 df['class'].value_counts(normalize = True) #Verificando a % de TP e NT
 
@@ -114,7 +113,7 @@ std_cv_knn_man = np.std(cv_list_knn_man)
 print(  F"Acurácia média do kNN com manhattan: {mean_cv_knn_man:.3f}")
 print(  F"Desvio padrão do kNN com manhattan: {std_cv_knn_man:.3f}")
 
-"""Tentando melhorar a regressão logistica e a convergingo a mesma"""
+"""Tentando melhorar a regressão logistica e a convergindo a mesma"""
 
 lr = Pipeline(
     [
@@ -234,4 +233,3 @@ plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
 plt.show()
 
-"""4 pessoas não tinham e deu que tem"""
